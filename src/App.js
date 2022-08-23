@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-
+import FormMailChimp from './components/FormMailChimp'
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -42,6 +42,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <LambdaDemo />
+          <FormMailChimp />
         </header>
       </div>
     )
